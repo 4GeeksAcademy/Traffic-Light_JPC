@@ -27,11 +27,11 @@ const Card = (props) => {
 						className={`btn light ${light == color ? "active" : ""}`} 
             style={{
 							backgroundColor: light,
-							width: "6rem",  // Ancho del círculo
-							height: "6rem", // Alto del círculo
+							width: "6rem",
+							height: "6rem", 
               margin: "0.5rem 0",
-							borderRadius: "50%", // Hacerlo circular
-							cursor: "pointer", // Cambiar el cursor al pasar el mouse
+							borderRadius: "50%", 
+							cursor: "pointer", 
 							boxShadow: light === color ? "0px 0px 70px lightyellow" : "none",
 						}}>
 						</button>

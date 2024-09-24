@@ -10,7 +10,7 @@ const Mastil = (props) => {
         background: "black",
         height: props.heigth ? props.heigth : "9vw",
         width: props.width ? props.width : "9%",
-        marginLeft: "55px",
+        marginLeft: "60px",
         color: "white",
         fontSize: "4vw",
         fontWeight: "bolder",

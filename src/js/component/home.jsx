@@ -24,14 +24,14 @@ const Home = () => {
 		<div className="d-flex justify-content-center">
 			<div>
 				<Mastil heigth="100px" width="10px" style={{ maring:"45rem" }}/>
-				<Card heigth="350px" width="120px"/>
+				<Card heigth="380px" width="130px"/>
 			<div>
 
 			</div>
-			
+			<Footer properties={footerData} />
 			
 			</div>
-
+			
 		</div>
 		
 	);

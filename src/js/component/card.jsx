@@ -9,7 +9,7 @@ const Card = (props) => {
 
   return (
     <div
-      className="card rounded d-flex justify-content-center align-items-center justify-content-center"
+      className="card rounded d-flex align-items-center"
       style={{
         background: "black",
         height: props.heigth ? props.heigth:"9vw",
@@ -20,17 +20,17 @@ const Card = (props) => {
       }}
     >
       <div className="card-body">
-          {lights.map((light, index) => 
-						<button 
+          {lights.map((light, index) =>
+						<button
 						key={index}
 						onClick={() => setColor(light)}
-						className={`btn light ${light == color ? "active" : ""}`} 
+						className={`btn light ${light == color ? "active" : ""}`}
             style={{
 							backgroundColor: light,
 							width: "6rem",
-							height: "6rem", 
+							height: "6rem",
               margin: "0.5rem 0",
-							borderRadius: "50%", 
+							borderRadius: "50%",
 							cursor: "pointer", 
 							boxShadow: light === color ? "0px 0px 70px lightyellow" : "none",
 						}}>

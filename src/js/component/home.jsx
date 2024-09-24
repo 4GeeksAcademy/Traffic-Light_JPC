@@ -23,13 +23,11 @@ const Home = () => {
 	return (
 		<div className="d-flex justify-content-center">
 			<div>
-				<Mastil heigth="100px" width="10px" style={{ maring:"45rem" }}/>
-				<Card heigth="380px" width="130px"/>
+				<Mastil heigth="30%" width="1%" style={{ maring:"20rem" }}/>
+				<Card heigth="100%" width="40%"/>
 			<div>
-
 			</div>
 			<Footer properties={footerData} />
-			
 			</div>
 			
 		</div>

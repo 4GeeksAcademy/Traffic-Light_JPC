@@ -5,12 +5,12 @@ import React from "react";
 const Mastil = (props) => {
   return (
     <div
-      className="d-flex justify-content-center align-items-center justify-content-center"
+      className="d-flex align-items-center"
       style={{
         background: "black",
         height: props.heigth ? props.heigth : "9vw",
         width: props.width ? props.width : "9%",
-        marginLeft: "60px",
+        marginLeft: "20%",
         color: "white",
         fontSize: "4vw",
         fontWeight: "bolder",

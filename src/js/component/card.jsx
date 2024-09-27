@@ -8,15 +8,13 @@ const Card = (props) => {
 	const [ lights, setLight ] = useState(["red","yellow","green"])
 
   return (
+    <div className="container justify-content-center">
     <div
-      className="card rounded d-flex align-items-center"
+      className=" container justify-content-center card rounded d-flex align-items-center"
       style={{
         background: "black",
         height: props.heigth ? props.heigth:"9vw",
         width: props.width ? props.width:"9%",
-        color: "white",
-        fontSize: "4vw",
-        fontWeight: "bolder",
       }}
     >
       <div className="card-body">
@@ -32,11 +30,12 @@ const Card = (props) => {
               margin: "0.5rem 0",
 							borderRadius: "50%",
 							cursor: "pointer", 
-							boxShadow: light === color ? "0px 0px 70px lightyellow" : "none",
+							boxShadow: light === color ? "0px 0px 40px 20px rgba(255, 255, 0, 1)" : "none",
 						}}>
 						</button>
 					)}
       </div>
+    </div>
     </div>
   );
 };

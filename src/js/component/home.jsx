@@ -23,7 +23,7 @@ const Home = () => {
 	return (
 		<div className="d-flex justify-content-center">
 			<div>
-				<Mastil heigth="30%" width="1%" style={{ maring:"20rem" }}/>
+				<Mastil heigth="30%" width="8%" style={{ maring:"20rem" }}/>
 				<Card heigth="100%" width="40%"/>
 			<div>
 			</div>
